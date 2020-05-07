@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Mario
+  - Players
   layers:
   - Default
   - TransparentFX
@@ -13,8 +16,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Goal
+  - Player1
   - 
   - 
   - 
@@ -43,4 +46,10 @@ TagManager:
     locked: 0
   - name: Canvas
     uniqueID: 1689695151
+    locked: 0
+  - name: Goal
+    uniqueID: 1030154309
+    locked: 0
+  - name: Player
+    uniqueID: 1283533755
     locked: 0
