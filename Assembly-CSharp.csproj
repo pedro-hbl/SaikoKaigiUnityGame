@@ -63,10 +63,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MarioMovement.cs" />
     <Compile Include="Assets\Scripts\Ball.cs" />
+    <Compile Include="Assets\Scripts\BallMovement.cs" />
     <Compile Include="Assets\Scripts\GroundCheck.cs" />
+    <Compile Include="Assets\Scripts\GroundCheck2.cs" />
+    <Compile Include="Assets\Scripts\MarioMovement.cs" />
+    <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\Movement2.cs" />
     <Compile Include="Assets\Scripts\NameAudioManager.cs" />
     <Compile Include="Assets\Scripts\SongAudioManager.cs" />
     <Reference Include="Unity.Timeline.Editor">
