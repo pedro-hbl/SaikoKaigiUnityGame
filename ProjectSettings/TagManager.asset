@@ -9,6 +9,9 @@ TagManager:
   - Player2
   - Ball
   - Wall
+  - Line1
+  - Line2
+  - GoalNotice
   layers:
   - Default
   - TransparentFX

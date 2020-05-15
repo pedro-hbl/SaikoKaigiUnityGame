@@ -65,7 +65,7 @@ public class Movement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Ball" && isShooting == true)
+        if (collision.gameObject.tag == "Ball" && isShooting == true) // adicionar a condição de pegar no pé
         {
             ball.GetComponent<Rigidbody2D>().AddForce(new Vector2(4, 5));
         }

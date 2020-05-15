@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Ball.cs" />
     <Compile Include="Assets\Scripts\BallMovement.cs" />
     <Compile Include="Assets\Scripts\GroundCheck.cs" />
@@ -71,7 +72,8 @@
     <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\Movement2.cs" />
-    <Compile Include="Assets\Scripts\NameAudioManager.cs" />
+    <Compile Include="Assets\Scripts\SceneTransition.cs" />
+    <Compile Include="Assets\Scripts\Scoreboard.cs" />
     <Compile Include="Assets\Scripts\SongAudioManager.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Pichau/Desktop/SaikoKaigiUnityGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
